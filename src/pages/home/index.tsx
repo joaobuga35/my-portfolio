@@ -25,6 +25,7 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
+  AboutContent,
 } from "./style";
 
 export const Home = (): JSX.Element => {
@@ -89,6 +90,25 @@ export const Home = (): JSX.Element => {
       </Header>
       <ProjectsArea id="projects">
         <Container>
+          <ProjectAreaWrapperColumns>
+            <AboutContent>
+              <Text as="h2" type="heading4" color="brand1">
+                  About
+              </Text>
+              <Text as="p" type="body1" color="grey4">
+                Desenvolvedor Full-Stack, com experiência em projetos web/mobile. Iniciando no desenvolvimento em 2022, sempre fui um entusiasta das novas tecnologias do mercado e apaixonado por aprender cada dia mais e mais.
+              </Text>
+              <Text as="p" type="body1" color="grey4">
+                Possuo foco em desenvolvimento com JavaScript, React, React Native, TypeScript, NodeJS, PostgreSQL, Python dentre outras tecnologias que uso para aplicações web/mobile. 
+              </Text>
+              <Text as="p" type="body1" color="grey4">
+                Me considero ágil e persistente para aprender novas tecnologias/linguagens e me adaptar a qualquer mudança e superar desafios! 
+              </Text>
+              <Text as="p" type="body1" color="grey4">
+                Três palavras que considero que me descreva bem: otimista, dedicado e persistente!
+              </Text>
+            </AboutContent>
+          </ProjectAreaWrapperColumns>
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">

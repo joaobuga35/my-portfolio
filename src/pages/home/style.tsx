@@ -102,7 +102,7 @@ export const StackCards = styled("div", {
 });
 
 export const ProjectsArea = styled("section", {
-  padding: "$section 0",
+  padding: "4rem",
   backgroundColor: "$grey0",
   backgroundImage: `url(${dots})`,
   backgroundRepeat: "no-repeat",
@@ -142,5 +142,19 @@ export const ProjectAreaWrapperColumns = styled("div", {
   alignItems: "flex-start",
   "@mobile": {
     flexDirection: "column",
+  },
+});
+
+export const AboutContent = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  gap: "2rem",
+  marginBottom: "5rem",
+
+  "@mobile": {
+    width: "100%",
+    position: "static",
+    order: "2",
+    marginTop: "5rem",
   },
 });
