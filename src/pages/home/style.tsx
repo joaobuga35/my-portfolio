@@ -102,7 +102,7 @@ export const StackCards = styled("div", {
 });
 
 export const ProjectsArea = styled("section", {
-  padding: "4rem",
+  padding: "5rem",
   backgroundColor: "$grey0",
   backgroundImage: `url(${dots})`,
   backgroundRepeat: "no-repeat",

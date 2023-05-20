@@ -45,29 +45,29 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Olá, meu nome é {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            Eu{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                amo
               </Text>{" "}
-              creating and{" "}
+              criar e{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                desenvolver
               </Text>{" "}
-              projects
+              projetos
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Descubra aqui neste ambiente, criado especialmente para você, 
+              todos os meus projetos e tecnologias
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                Veja meu código
               </Button>
               <Button
                 color="grey5"
@@ -88,12 +88,12 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
-      <ProjectsArea id="projects">
+      <ProjectsArea id="about">
         <Container>
           <ProjectAreaWrapperColumns>
             <AboutContent>
               <Text as="h2" type="heading4" color="brand1">
-                  About
+                Sobre
               </Text>
               <Text as="p" type="body1" color="grey4">
                 Desenvolvedor Full-Stack, com experiência em projetos web/mobile. Iniciando no desenvolvimento em 2022, sempre fui um entusiasta das novas tecnologias do mercado e apaixonado por aprender cada dia mais e mais.
@@ -109,15 +109,15 @@ export const Home = (): JSX.Element => {
               </Text>
             </AboutContent>
           </ProjectAreaWrapperColumns>
-          <ProjectAreaWrapperColumns>
+          <ProjectAreaWrapperColumns id="projects">
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Estes são alguns{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  dos meus projetos
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>

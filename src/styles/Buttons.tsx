@@ -25,14 +25,17 @@ export const Button = styled("button", {
         background: "transparent",
         borderColor: "transparent",
         fontWeight: "500",
+        '&:hover': {
+          textDecoration: "underline",
+        },
       },
       primary: {
         background: "$brand1",
         borderColor: "$brand1",
         color: "$whiteFixed",
         "&:hover": {
-          backgroundColor: "$brand2",
-          borderColor: "$brand2",
+          filter: "brightness(0.5)",
+          borderColor: "$brand1",
         },
         "@mobile": {
           height: "2.5rem",

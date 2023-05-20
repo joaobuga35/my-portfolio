@@ -33,7 +33,6 @@ export const Project = (): JSX.Element => {
       const json = await data.json();
 
       setRepositories(json);
-
       return json;
     };
 
@@ -56,7 +55,7 @@ export const Project = (): JSX.Element => {
 
             <ProjectStack>
               <Text type="body2" color="grey2">
-                Primary Language:
+                Linguagem primária:
               </Text>
               {repository.language ? (
                 <ProjectStackTech>
@@ -67,7 +66,7 @@ export const Project = (): JSX.Element => {
               ) : (
                 <ProjectStackTech>
                   <Text color="grey2" type="body2">
-                    Primary language not identified
+                    Linguagem primária não identificada
                   </Text>
                 </ProjectStackTech>
               )}
@@ -78,14 +77,14 @@ export const Project = (): JSX.Element => {
             </Text>
             <ProjectLinks>
               <ProjectLink target="_blank" href={repository.html_url}>
-                <FaGithub /> Github Code
+                <FaGithub /> Código GitHub
               </ProjectLink>
               {repository.homepage && (
                 <ProjectLink
                   target="_blank"
-                  href={`https://${repository.homepage}`}
+                  href={`${repository.homepage}`}
                 >
-                  <FaShare /> See demo
+                  <FaShare /> demo
                 </ProjectLink>
               )}
             </ProjectLinks>
