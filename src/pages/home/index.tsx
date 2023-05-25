@@ -94,7 +94,7 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <AboutContent>
               <Text as="h2" type="heading4" color="brand1">
-                Sobre mim
+                Sobre
               </Text>
               <Text as="p" type="body1" color="grey4">
                 Desenvolvedor Full-Stack, com experiência em projetos web/mobile. Iniciando no desenvolvimento em 2022, sempre fui um entusiasta das novas tecnologias do mercado e apaixonado por aprender cada dia mais e mais.
